@@ -14,7 +14,7 @@ Criminal Intent uses JavaFX8, which comes with Java 8, to do most of the display
 ## 2. Running the Program
 The repo contains the .jar file (Criminal Intent.jar on the main folder of the repo) which should be everything needed to run the file.  In case you wanted to compile the source code yourself, this section will also include instructions for that.
 ### 2.1 Running from the .jar file
-Double-click Criminal Intent.jar in the main folder.  The game will start to run from there.
+Download the repo, then double-click Criminal Intent.jar in the main folder.  The game will start to run from there.
 ### 2.2 Compiling and Running from Command Line
 See Compilation Instructions.md in the Docs folder for detailed instructions.
 
@@ -39,7 +39,7 @@ Press the M key to open or close the in-game pause menu.  If the user is in the 
 ### The program looks like this:
 ![Possible Error](/Docs/PossibleError.png?raw=true)
 
-This happens when the .jar file is in the wrong directory.  Move the .jar file so that it’s in the same directory as the Images and Source folders (as it is on the repo).  This is because the code uses references to these folders, which it can’t find unless it’s in the same directory as them.
+This happens when either the program is run an unsupported operating system (see Section 1.3) or the .jar file is in the wrong directory.  To solve the latter, move the .jar file so that it’s in the same directory as the Images and Source folders (as it is on the repo).  This is because the code uses references to these folders, which it can’t find unless it’s in the same directory as them.
 ### Customer Support
 _Note: Please do not contact Customer Support for hints/codes/cheats._ 
 
