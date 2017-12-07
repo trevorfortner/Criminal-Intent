@@ -1,0 +1,39 @@
+.root {
+    -fx-background-image: url(../Images/PopupMenuBackground.jpg);
+    -fx-opacity: .999;
+}
+
+.button {
+    -fx-background-color: BLUE;
+    -fx-background-radius: 7;
+
+    -fx-border-color: GREY;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+
+    -fx-text-fill: WHITE;
+}
+
+
+#chat-label{
+    -fx-font-size: 20;
+    -fx-font-style: italic;
+    -fx-text-alignment: center;
+}
+
+#name-strength-label{
+    -fx-font-size: 9;
+    -fx-font-weight: normal;
+}
+
+.label{
+    -fx-font-size: 10;
+    -fx-font-family: Courrier New;
+    -fx-font-weight: bold;
+    -fx-wrap-text: true;
+}
+
+#line{  /*line isn't a subclass of Control, so I guess I can't just do .line like with .label, which is a subclass*/
+    -fx-stroke: RED;
+    -fx-stroke-width: 3;
+}

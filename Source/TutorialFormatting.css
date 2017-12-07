@@ -1,0 +1,17 @@
+#rectangle {
+    -fx-fill: linear-gradient(to right, green, lightgreen);
+    /*fills the rectangle with a gradient from green on left to lightgreen on right*/
+    -fx-arc-height: 20;
+    -fx-arc-width: 20;
+    /*curve the corners a little*/
+}
+
+.label{
+    -fx-text-fill: BLACK;
+}
+
+#message-label{
+    -fx-wrap-text: true;
+    -fx-text-alignment: CENTER;
+    -fx-font-family: Playbill;
+}

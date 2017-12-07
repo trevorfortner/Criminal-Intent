@@ -1,0 +1,15 @@
+*.xml
+
+*.iml
+
+*.class
+
+*.txt
+
+*.rtf
+
+*.pdf
+
+*.uxf
+
+logs/

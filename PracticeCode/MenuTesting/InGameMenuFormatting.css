@@ -1,0 +1,12 @@
+.label {
+    -fx-word-wrap: break-word;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-text-fill: DARKRED
+}
+
+.button {
+    -fx-font-size: 30;
+    -fx-font-family: Onyx;
+    -fx-background-color: TRANSPARENT;
+}

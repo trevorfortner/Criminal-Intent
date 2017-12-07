@@ -1,0 +1,19 @@
+.label {
+    -fx-font-family: Playbill;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-font-size: 35;
+}
+
+.combo-box {
+    -fx-background-color: TRANSPARENT;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+}
+
+.button {
+    -fx-background-color: TRANSPARENT;
+    -fx-font-family: Onyx;
+    -fx-font-size: 30;
+}

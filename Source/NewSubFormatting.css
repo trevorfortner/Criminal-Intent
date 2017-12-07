@@ -1,0 +1,25 @@
+#rectangle {
+    -fx-fill: linear-gradient(to right, DARKRED, RED);
+    /*fills the rectangle with a gradient from green on left to lightgreen on right*/
+    -fx-arc-height: 20;
+    -fx-arc-width: 20;
+    /*curve the corners a little*/
+}
+
+#sub-rectangle {
+    -fx-fill: linear-gradient(to right, SKYBLUE, WHITE);
+}
+
+.label{
+    -fx-text-fill: AZURE;
+}
+
+#message-label{
+    -fx-wrap-text: true;
+    -fx-text-alignment: CENTER;
+    -fx-font-family: Playbill;
+}
+
+#sub-label{
+    -fx-text-fill: BLACK;
+}

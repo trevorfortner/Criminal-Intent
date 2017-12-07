@@ -1,0 +1,4 @@
+.label{
+    -fx-text-fill: WHITESMOKE;
+    /*In terms of reducing lines, this seems to be all I can do because everything else scales based on window size*/
+}

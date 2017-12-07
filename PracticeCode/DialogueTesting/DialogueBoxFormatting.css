@@ -1,0 +1,31 @@
+.root {
+    -fx-background-image: url(../PracticeImages/PopupMenuBackground.jpg);
+    -fx-opacity: .999;
+}
+
+.button {
+    -fx-background-color: BLUE;
+    -fx-background-radius: 5;
+
+    -fx-border-color: GREY;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+
+    -fx-text-fill: WHITE;
+}
+
+
+#chat-label{
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-font-family: Courrier New;
+    -fx-font-style: italic;
+    -fx-wrap-text: true;
+}
+
+.label{
+    -fx-font-size: 10;
+    -fx-font-family: Courrier New;
+    -fx-font-weight: bold;
+    -fx-wrap-text: true;
+}
