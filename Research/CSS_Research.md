@@ -1,4 +1,4 @@
-#12/26 (12PM-1:30PM)
+# 12/26 (12PM-1:30PM)
 
 Source: https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html
 
@@ -9,7 +9,7 @@ Source: https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html
 - effects include drop shadows and inner shadows
 - paints include colors and gradients (linear and radial)
 
-##Font
+## Font
 - These can basically be called whenever -fx-font can be
 
 | CSS Property   | Possible Values                                                                                                                                                                                      | Default | Comments                               |
@@ -20,7 +20,7 @@ Source: https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html
 | -fx-font-style | normal, italic, oblique                                                                                                                                                                              | inherit | Can use this to italicize words        |
 | -fx-font-weight| normal, bold, bolder, lighter, 100, 200, 300, 400, 500, 600, 700, 800, 900                                                                                                                           | inherit | "Fatness" of font basically (eg bold)  |
 
-##Node
+## Node
 | CSS Property   | Possible Values                                                                                                                                                                                      | Default | Range         | Comments                               |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|---------------|----------------------------------------|
 | -fx-blend-mode | add, blue, color-burn, color-dodge, darken, difference, exclusion, green, hard-light, lighten, multiply, overlay, red, screen, soft-light, src-atop, src-in, src-out, src-over                       | null    |               | Basically the color blending           |
@@ -31,7 +31,7 @@ Source: https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html
 | -fx-scale-x    | **number**                                                                                                                                                                                           | 1       |               | Scale about the center in x direction  |
 | -fx-scale-y    | **number**                                                                                                                                                                                           | 1       |               | Scale about the center in y direction  |
 
-##Labeled
+## Labeled
 - Extends Node (so can do all the CSS things that Node can, too)
 
 | CSS Property        | Possible Values                                                                                                                                                                                      | Default | Comments                               |
@@ -48,15 +48,15 @@ Source: https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html
 | -fx-text-fill       | **paint**                                                                                                                                                                                            | black   | Color of the text                      |
 | -fx-ellipsis-string | **string**                                                                                                                                                                                           | ...     | Ellipsis to use when wrapping          |
 
-##Label
+## Label
 - Extends Labeled
 - No additional CSS functions
 
-##Button
+## Button
 - Extends Labeled
 - No additional CSS functions
 
-##Region
+## Region
 - Extends Node
 - There's quite a few more, but these are the ones I thought I might need: 
 
@@ -67,11 +67,11 @@ Source: https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html
 | -fx-border-color    | **paint**                                                                                                                                                                                            | null    | Sets a border color                    |
 | -fx-border-width    | **size**                                                                                                                                                                                             | null    | Sets border width                      |
 
-##AnchorPane
+## AnchorPane
 - Extends Region
 - No additional CSS functions
 
-##ImageView
+## ImageView
 - Extends Node
 
 | CSS Property        | Possible Values                                                                                                                                                                                      | Default |
